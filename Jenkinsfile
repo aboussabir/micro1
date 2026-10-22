@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo "hello from Jenkinsfile"
+                echo "hello from Jenkinsfile 1234"
             }
         }
         stage('for the fix branch') {
@@ -21,7 +21,7 @@ pipeline {
                 changeRequest()
             }
             steps {
-                echo "this only run for the PRs."
+                echo "this only run for the PRs. 1234"
             }
         }
     }
